@@ -13,7 +13,7 @@ In extensive comparisons with six state-of-the-art methods, **MSSFDTI** demonstr
 
 Here is a flowchart illustrating the overall process of the MSSFDTI framework:
 
-<img alt="MSSFDTI Flowchart" src="C:\Users\47457\Desktop\KBSFig\Flowchart.tif"/>
+<img alt="MSSFDTI Flowchart" src=".\Flowchart.tif"/>
 
 ## **Quick Start**
 
@@ -40,7 +40,7 @@ This will start the training process for the DTI prediction model.
 
 
 ## **Contacts**
-If you have any questions about the code or the algorithm, please feel free to reach out to:
+If you have any questions about the code or the algorithm, please feel free to reach out to:   
 **Email:** wym0152@163.com
 
 
