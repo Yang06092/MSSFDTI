@@ -1,3 +1,7 @@
+要在 **README** 文件中加入环境配置和安装依赖的说明，你可以在 **Quick Start** 部分增加一些环境设置的步骤，例如 **Python 版本**，**虚拟环境** 的设置，以及 **依赖项的安装**。以下是一个完整的例子，包括你提到的环境配置部分：
+
+---
+
 # **MSSFDTI: Drug-Target Interaction (DTI) Prediction**
 
 ## **Introduction**
@@ -17,17 +21,42 @@ Here is a flowchart illustrating the overall process of the MSSFDTI framework:
 
 ## **Quick Start**
 
-Follow the steps below to run the model in a **Linux environment**:
+### **1. Set Up the Environment**
+Before running the model, you need to set up your environment. We recommend using a **Python 3.8** virtual environment for better compatibility.
 
-### **1. Pre-training Phase**
+#### **Create a Virtual Environment (Optional but recommended)**
+To create a new virtual environment using Python 3.8, run the following commands:
+
+```bash
+python3.8 -m venv mssfdtivenv  # Create a new virtual environment
+source mssfdtivenv/bin/activate  # Activate the virtual environment (Linux/Mac)
+```
+
+For **Windows**, you can activate the environment using:
+
+```bash
+mssfdtivenv\Scripts\activate
+```
+
+#### **Install Required Dependencies**
+Ensure you have **pip** installed, then install all required Python packages by running:
+
+```bash
+pip install -r requirements.txt  # Install dependencies from requirements.txt
+```
+
+If you don't have the `requirements.txt` file yet, you can generate it by following the instructions from the previous conversation.
+
+### **2. Pre-training Phase**
 Run the **pretraining** script to integrate drug similarity networks and target similarity networks. This step prepares the necessary features for the model.
 
 ```bash
 python3 /path/to/MSSFDTI-main/src/pretrain_code/pretrain.py
 ```
+
 Make sure to replace `/path/to/` with the actual directory path where the script is located.
 
-### **2. Training Phase**
+### **3. Training Phase**
 After pretraining, run the **training** script to train the model on the processed data.
 
 ```bash
@@ -36,16 +65,11 @@ python3 /path/to/MSSFDTI-main/src/train.py
 
 This will start the training process for the DTI prediction model.
 
-
-
-
 ## **Contacts**
-If you have any questions about the code or the algorithm, please feel free to reach out to:   
-**Email:** wym0152@163.com
-
-
-
+If you have any questions about the code or the algorithm, please feel free to reach out to:  
+**Email**: wym0152@163.com
 
 ### **Note:**
-Ensure you have the required dependencies installed in your environment as listed in the original instructions. You can install the required packages using `pip` or `conda`.
-
+- Ensure you have the required dependencies installed in your environment as listed in the `requirements.txt` file.
+- You can install the required packages using `pip install -r requirements.txt`.
+- You may need to install additional system-level dependencies depending on your environment (e.g., for GPU support or specific libraries).
