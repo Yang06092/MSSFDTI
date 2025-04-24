@@ -1,7 +1,3 @@
-要在 **README** 文件中加入环境配置和安装依赖的说明，你可以在 **Quick Start** 部分增加一些环境设置的步骤，例如 **Python 版本**，**虚拟环境** 的设置，以及 **依赖项的安装**。以下是一个完整的例子，包括你提到的环境配置部分：
-
----
-
 # **MSSFDTI: Drug-Target Interaction (DTI) Prediction**
 
 ## **Introduction**
