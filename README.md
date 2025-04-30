@@ -7,7 +7,7 @@ To overcome these limitations, we introduce **MSSFDTI**, a novel framework for D
 
 Furthermore, the encoded features are processed through a **multi-scale deep interaction mechanism**, which simultaneously models both the local conformational match and global functional relevance of drug-target interactions. This approach significantly enhances the model’s ability to represent complex molecular interactions.
 
-In extensive comparisons with six state-of-the-art methods, **MSSFDTI** demonstrates significantly superior performance on two widely used benchmark datasets. Additionally, case studies show that our method effectively identifies novel binding targets for multi-target drugs, offering valuable insights for DTI prediction.
+In extensive comparisons with six state-of-the-art methods, MSSFDTI demonstrates significantly superior performance on two widely used benchmark datasets. Additionally, case studies show that our method effectively identifies novel binding targets for multi-target drugs, offering valuable insights for DTI prediction.
 
 ## **Flowchart**
 
