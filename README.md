@@ -13,7 +13,7 @@ In extensive comparisons with six state-of-the-art methods, MSSFDTI demonstrates
 
 Here is a flowchart illustrating the overall process of the MSSFDTI framework:
 
-![MSSFDTI Flowchart](Flowchart.png)
+![MSSFDTI Flowchart](https://github.com/Yang06092/MSSFDTI/blob/dcc37f7f384c710e29fbfffaa16834f8d6233df5/Flowchart.png)
 
 
 ## **Quick Start**
